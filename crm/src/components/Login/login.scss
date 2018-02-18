@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.login-background {
+    background: #DCDDEF;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin: auto;
+   
+    .login-box {
+        min-width: 800px;
+        height: 450px;
+        background-color: #fff;
+        display: flex;
+         
+        .left-box {
+            display: inline-block;
+            height: 100%;
+            width: 50%;
+            flex: 1;
+            .login-title {
+                color: #91A7CA;
+                font-size: 2.2rem;
+                margin-top: 120px;
+            }
+        }
+        .right-box {
+            display: inline-block;
+            width: 50%;
+            height: 100%;
+            background-color: #4C4266;
+        }
+    }
+}
